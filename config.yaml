@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    tjh:
+      email: besthorizon@hotmail.fr
+      name: Tojo Hasina
+      password: $2b$12$toyGF5O7IKZBg77jUKmPyOBc38T3IH7apB4JgTiZQETkqqiTUi5iu # To be replaced with hashed password
+    plitech_anthony:
+      email: vide@vide.mg
+      name: Andrianarivelo Anthony 
+      password: $2b$12$RGnd.039tqLCUAsmVjD3oulJjmJhN3IZnQIc952kNZ5lufFnf0q9K # To be replaced with hashed password
+cookie:
+  expiry_days: 0
+  key: "fdsfsqkfsdfhishfjdsfnjcjkshcq" # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - besthorizon@hotmail.fr
