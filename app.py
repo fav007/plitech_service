@@ -8,8 +8,20 @@ import yaml
 from yaml.loader import SafeLoader
 
 
-# --- USER AUTHENTIFICATION
+st.set_page_config(
+   page_title="Plitech Service",
+   page_icon="🧊",
+)
 
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 
 file_path = Path(__file__).parent / "config.yaml"
