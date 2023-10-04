@@ -11,7 +11,7 @@ credentials:
     sahoby:
       email: rsahoby@gmail.com
       name: RAKOTOMANANA Sahoby
-      password: $2b$12$MTeUSbjri12c4UT0rwSehuRqM.D8CE47pzBkh2H32S8DoyTKcDYV.
+      password: $2b$12$rlgX69oltAikKBslkSoxEec6X.HmjS54wVkne0NBsDQdjYAIh2MD.
 cookie:
   expiry_days: 0
   key: "fdsfsqkfsdfhishfjdsfnjcjkshcq" # Must be string
