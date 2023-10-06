@@ -38,7 +38,7 @@ authenticator = stauth.Authenticate(
     config['preauthorized']
 )
 
-name, authentication_status,username = authenticator.login("Login","main")
+pseudo, authentication_status,username = authenticator.login("Login","main")
 
 if authentication_status == False:
     st.error("Username/password is incorrect")
@@ -47,12 +47,30 @@ if authentication_status == None:
     st.warning("Please enter your username and password")
     
 if authentication_status:
-    st.title("Welcome")
+    st.title("Welcome to company manager")
     
+    st.write('ok')
+    st.write('oui')
+    
+    tab = st.tabs(['Clients','Ticket Entry','Invoice'])
+    
+    with tab[0]:
+        with st.form('client'):
+            name = st.text_input('name')
+            locale = st.text_input('locale')
+            contact = st.text_input('contact')
+            
+            if st.form_submit_button():
+                st.write(f'{name} with {locale}' )
     
     
 authenticator.logout("Logout","sidebar")
-st.sidebar.title(f"Welcome {name}")
+st.sidebar.title(f"Welcome {pseudo}")
+
+
+    
+
+
 
  
 
